@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan ke-2</title>
+    <style>
+        body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+
+    h1 {
+        color: #2c3e50;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h2 {
+        color: #34495e;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #2980b9;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        margin: 15px 0;
+    }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.15;
+        text-align: justify;
+    }
+
+    .content {
+        margin-bottom: 30px;
+        padding: 15px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .mode-rapih {
+        background-color: #ecf0f1;
+        color: #2c3e50;
+    }
+
+    .mode-berantakan {
+        background-color: #ff5733;
+        color: #00ffff;
+    }
+
+    .mode-berantakan h1
+    {
+        color: #00ffff;
+    }
+    .mode-berantakan h2
+    {
+        color: blue;
+    }
+    .mode-berantakan h3
+    {
+        color: aqua;
+    }
+    .mode-berantakan p {
+        color: #fc01ef;
+    }
+
+    .mode-berantakan .content {
+        background-color: #39ff14;
+        color: #ff0000;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #2980b9;
+        color: white;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #1f6391;
+    }
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>LAPORAN TEORI</h1>
+    <h2>Daniel David Hamonangan Hutabarat</h1>
+    <h2>202331129</h1>
+    <hr>
+
+    <h3 onclick="sembunyi">HTML,CSS dan JavaScript dalam pemrograman Web</h3>
+    <div class="content">
+        <ol>
+            <li>HTML</li>
+            <p>HTML ( Hypertext Markup Language), merupakan salah satu bahasa pemograman yang digunakan untuk membuat sebuah halaman website yang ditampilkan pada web browser. 
+            Sebagian besar halaman yang umum dijumpai oleh kebanyakan orang di internet kebanyakan menggunakan Bahasa HTML. 
+            HTML berfungsi sebagai kerangka kerja yang menyusun elemen-elemen seperti teks, gambar, tabel, dan tautan agar dapat ditampilkan di browser. 
+            Tanpa HTML, sebuah halaman web tidak dapat dibuat.</p>
+    
+            <li>CSS</li>
+            <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup.
+            CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.bertugas mengatur tampilan visual dari elemen-elemen yang disusun dengan HTML. 
+            Dengan CSS, pengembang dapat mengatur warna, tata letak, ukuran, hingga responsivitas halaman web agar tampil menarik di berbagai perangkat.
+            HTML dan CSS memiliki keterikatan yang erat. 
+            Karena HTML adalah bahasa markup (fondasi situs) dan CSS memperbaiki style (untuk semua aspek yang terkait dengan tampilan website), maka kedua bahasa pemrograman ini harus berjalan beriringan.
+            </p>
+    
+            <li>JavaScript</li>
+            <p>JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. 
+            Dengan JavaScript, pengembang dapat menambahkan logika, animasi, validasi formulir, atau fitur lain yang membuat halaman lebih fungsional dan menarik bagi pengguna.</p>
+        </ol>
+    
+    </div>
+
+    
+    
+    <h3 onclick="sembunyi">Bagaimana cara mengintegrasikan HTML,CSS dan JavaScript</h3>
+    <div class="content">
+        <ol>
+            <li>HTML</li>
+            <p>yaitu denggan cara dapat membuat file baru denggan format .html, kemudian memasukan elemen seperti  html  head , dan  body . Elemen-elemen seperti h1 untuk judul,  p  untuk paragraf, dan elemen lainnya digunakan untuk menyusun konten.</p>
+            <li>CSS</li>
+            <p>memiliki format .css dan dapat dihubungkan ke HTML menggunakan elemen  link  atau langsung ditulis dalam elemen  style. 
+            elemen dapat diatur menggunakan properti seperti color untuk teks dan background-color untuk latar belakang, atau bahkan gambar dengan background-image. Gaya teks dapat disesuaikan melalui properti seperti font-family untuk jenis huruf, font-size untuk ukuran, dan font-weight untuk ketebalan. 
+            Tata letak dan ruang antar elemen diatur menggunakan properti margin, padding, dan border.</p>
+            <li>JavaScript</li>
+            <p>dapat ditulis langsung di dalam elemen  script  pada file HTML, memungkinkan integrasi cepat dengan elemen di halaman tersebut. 
+            Secara eksternal, kode JavaScript diletakkan dalam file terpisah dengan format .js yang kemudian dihubungkan ke file HTML menggunakan elemen   script src="...">. Pernyataan kondisi seperti if-else memungkinkan pengambilan keputusan berdasarkan logika tertentu, 
+            sedangkan perulangan seperti for dan while digunakan untuk menjalankan kode secara berulang.</p>
+        </ol>
+    </div>
+
+    <button onclick="alternatif()">mode alternatif</button>
+
+    <script>
+        function alternatif() {
+            var content = document.querySelectorAll('.content, .alternatif');
+            var button = document.querySelector('button');
+    
+            
+            content.forEach(function(item) {
+                item.classList.toggle('hidden');
+            });
+
+            if (button.innerText === 'mode alternatif') {
+                button.innerText = 'mode rapih';
+                document.body.classList.add('mode-berantakan');
+                document.body.classList.remove('mode-rapih');
+            } else {
+                button.innerText = 'mode alternatif';
+                document.body.classList.add('mode-rapih');
+                document.body.classList.remove('mode-berantakan');
+            }
+        }
+    
+        document.querySelectorAll('h3').forEach(function(header) {
+            header.addEventListener('click', function() {
+                var contentDiv = this.nextElementSibling;
+                if (contentDiv.classList.contains('content')) {
+                    var isConfirmed = window.confirm("Apakah Anda ingin menyembunyikan konten bagian ini?");
+                    if (isConfirmed) {
+                        contentDiv.classList.toggle('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+    
+   
+    
+</body>
+</html>
